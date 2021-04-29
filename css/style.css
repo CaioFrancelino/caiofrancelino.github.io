@@ -1,0 +1,180 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Druk Wide Bold';
+  src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+/*principal*/
+
+.principal {
+  background-color: #141414;
+  width: 100%;
+  height: 7vw;
+  color: #fafafa;
+  position: relative;
+}
+
+.principal p {
+    font-size: 1.8vw;
+    width: 100%;
+    margin-top: 2.3%;
+    margin-left: 2%;
+    position: relative;
+    font-family: 'Druk Wide Bold';
+}
+
+.principal img {
+	width: 30%;
+	margin-right: 2%;
+	border-radius: 18px;
+	position: absolute;
+	right: 0;
+	top: 20px;
+  filter: drop-shadow(0 0 0.75em rgb(0, 0, 0));
+  
+}
+
+/*Infos*/
+
+
+.infos p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.2vmin;
+  margin-top: 2%;
+  margin-left: 20px;
+}
+
+.infos p span {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #141414;
+  font-weight: 700;
+}
+
+.infos p span a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #141414;
+  font-weight: 700;
+}
+
+/*Experiências*/
+
+.titulo-experiencia {
+  background-color: #ff158a;
+  margin-top: 3vw;
+  text-align: left;
+  padding: 2vh;
+  font-size: 3vmin;
+  color: #fafafa;
+  font-family: 'Druk Wide Bold';
+}
+
+.experiencias {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 500px;
+  padding: 2vh;
+}
+.experiencias h3 {
+  font-size: 3vmin;
+  text-transform: capitalize;
+}
+
+.experiencias p {
+  padding-top: 10px;
+  font-size: 2vmin;
+}
+
+#icon {
+  margin-right: 15px;
+}
+
+/*Formação*/
+
+.titulo-formacao {
+  background-color: #15ff9d;
+  margin-top: 2vw;
+  text-align: left;
+  padding: 2vh;
+  font-size: 3vmin;
+  color: #fafafa;
+  font-family: 'Druk Wide Bold';
+}
+
+.formacao {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 500px;
+  padding: 2vh;
+}
+.formacao h3 {
+  font-size: 3vmin;
+  text-transform: capitalize;
+}
+
+.formacao p {
+  padding-top: 10px;
+  font-size: 2vmin;
+}
+
+/*infos2*/
+
+.qualidades {
+  display: flex;
+  flex-direction: row;
+}
+
+.titulo-idioma {
+  background-color: #7a15ff;
+  text-align: left;
+  padding: 2vh;
+  font-size: 3vmin;
+  color: #fafafa;
+  font-family: 'Druk Wide Bold';
+  flex: 4 4 auto;
+}
+
+.portugues {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 500px;
+  padding: 2vh;
+  display: inline-block;
+}
+
+.ingles {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 500px;
+  padding: 2vh;
+  display: inline-block;
+}
+
+.titulo-qualidades {
+  background-color: #ff154f;
+  text-align: left;
+  padding: 2vh;
+  font-size: 3vmin;
+  color: #fafafa;
+  font-family: 'Druk Wide Bold';
+  flex: 1 1 auto; 
+
+}
